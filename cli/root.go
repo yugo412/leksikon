@@ -23,7 +23,6 @@ func main() {
 	var err error
 
 	rootCommand.AddCommand(command.SeedLanguage)
-	rootCommand.AddCommand(command.DisplayLanguage)
 
 	err = rootCommand.Execute()
 	if err != nil {
